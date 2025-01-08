@@ -170,8 +170,8 @@ main {
   background: #fe7766;
 }
 
-.main-content-cherry-orange{
-width: 100%;
+.main-content-cherry-orange {
+  width: 100%;
 }
 
 .main-cherry {
@@ -194,7 +194,8 @@ width: 100%;
   justify-content: center;
 }
 
-.main-cherry span, .main-orange span {
+.main-cherry span,
+.main-orange span {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -202,7 +203,8 @@ width: 100%;
   margin-bottom: 50px;
 }
 
-.main-cherry span h3, .main-orange span h3 {
+.main-cherry span h3,
+.main-orange span h3 {
   color: #24554a;
   text-align: center;
   font-family: "Fraunces";
@@ -213,7 +215,8 @@ width: 100%;
   letter-spacing: -0.2px;
 }
 
-.main-cherry span p, .main-orange span p {
+.main-cherry span p,
+.main-orange span p {
   color: #24554a;
   text-align: center;
   font-family: "barlow";
@@ -226,3 +229,85 @@ width: 100%;
 }
 
 /* FOOTER */
+
+footer {
+ width: 100%;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.testimonials h3 {
+  color: #a7aaad;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+
+.clients {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients img {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+}
+
+.clients p {
+  color: #5b636d;
+  text-align: center;
+  font-family: "barlow";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.129px;
+  width: 327px;
+}
+
+.clients div h4 {
+  color: #24303e;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.129px;
+  margin-bottom: 10px;
+}
+
+.clients div span{
+  color: #A7AAAD;
+text-align: center;
+font-family: "barlow";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 178.571% */
+letter-spacing: -0.1px;
+width: 203px;
+}
+
+.image-collage{
+  width: 100vw;
+  border: solid 1px red;
+  display: flex;
+}
+
+
