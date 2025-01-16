@@ -13,7 +13,6 @@
 .triangle{
   position: relative;
   top: 3px;
-right: ;
 display: flex;
 justify-content: flex-end;
 }
@@ -22,9 +21,9 @@ justify-content: flex-end;
   width: 0; 
   height: 0; 
   border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  border-right: 4px solid transparent;
   top: 3px;
-  border-bottom: 20px solid white;
+  border-bottom: 40px solid white;
 }
 
 
@@ -120,12 +119,15 @@ main {
   width: 100%;
 }
 
+
+
 .main-img2 {
   background: url("./images/mobile/image-stand-out.jpg") no-repeat center center /
     cover;
   height: 312px;
   width: 100%;
 }
+
 
 .main-content {
   display: flex;
@@ -397,4 +399,75 @@ footer {
   width: 24px;
   height: 24px;
   border-radius: 0;
+}
+
+
+@media (min-width: 775px) {
+
+  nav{
+    display: flex;
+  }
+
+  .container {
+    height: 638px;
+    width: 100%;
+    background: url('./images/desktop/image-header.jpg') no-repeat center center /
+      cover;
+  }
+  .nav-links{
+    position: static;
+  }
+
+ nav .menu{
+  display: none;
+ }
+
+ .triangle{
+  display: none;
+ }
+
+ nav ul{
+  height: auto;
+  flex-direction: row;
+  background-color: transparent;
+  color: #fff;
+ }
+ 
+ /* main */
+
+ .content-container, .main-content-cherry-orange{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+ }
+
+ .main-img1, .main-img2{
+width: 50%;
+ }
+
+ 
+
+
+.main-img1 {
+  background: url('./images/desktop/image-transform.jpg') no-repeat center center / cover;
+}
+
+.main-img2 {
+  background: url('./images/desktop/image-stand-out.jpg') no-repeat center center / cover;
+}
+
+
+
+s
+
+
+ .main-cherry{
+    background: url('./images/desktop/image-graphic-design.jpg') no-repeat center center / cover;
+ }
+
+ .main-orange{
+    background: url('./images/desktop/image-photography.jpg') no-repeat center center / cover;
+ }
+
 }
