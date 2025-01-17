@@ -434,28 +434,34 @@ footer {
  }
  
  /* main */
+ 
+ .main-img1 {
+   background: url('./images/desktop/image-transform.jpg') no-repeat center center / cover;
+   width: 720px;
+height: 600px;
+ }
+ 
+ .main-img2 {
+   background: url('./images/desktop/image-stand-out.jpg') no-repeat center center / cover;
+   width: 720px;
+height: 600px;
+ }
+ .content-container{
+  border: solid 1px red;
+  display: flex;
+ }
 
  .content-container, .main-content-cherry-orange{
   flex-direction: row;
   display: flex;
-  width: 100%;
+  
   justify-content: space-between;
  }
 
- .main-img1, .main-img2{
-width: 50%;
- }
 
  
 
 
-.main-img1 {
-  background: url('./images/desktop/image-transform.jpg') no-repeat center center / cover;
-}
-
-.main-img2 {
-  background: url('./images/desktop/image-stand-out.jpg') no-repeat center center / cover;
-}
 
 
 
